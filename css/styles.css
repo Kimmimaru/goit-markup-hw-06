@@ -881,7 +881,7 @@ body {
     color: #8e8f99;
 }
 
-.check input {
+.check-mark input {
     position: absolute;
 }
 
@@ -899,7 +899,7 @@ body {
 }
 
 
-.check input:checked + .contact-form {
+.check-mark input:checked + .contact-form {
     background-color: #404bbf;
     border: none; 
     fill:  #f4f4fd;
