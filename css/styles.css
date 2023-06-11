@@ -612,12 +612,7 @@ body {
 }
 
 
-.foot-list-link:hover {
-    background-color: #31d0aa;
-}
-
-
-.foot-list-link:focus {
+.foot-list-link:is(:hover, :focus) {
     background-color: #31d0aa;
 }
 
@@ -629,6 +624,79 @@ body {
 
 .foot-form-cont {
 
+}
+
+
+.foot-form-cont-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+
+.foot-form {
+    display: flex;
+    gap: 24px;
+}
+
+
+.foot-label {
+    
+}
+
+
+.foot-input {
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+
+.foot-input::placeholder {
+    color: #ffffff;
+}
+
+
+.butt-plan {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: var(--o-transform-link-background);
+}
+
+
+.butt-plan:is(:hover, :focus) {
+    background-color: #31d0aa;
+}
+
+
+.plan {
+    margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 
