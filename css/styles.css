@@ -899,7 +899,7 @@ body {
 }
 
 
-.check input:checked + .contact-form {
+.checkbox-own:checked + .check >  .contact-form {
     background-color: #404bbf;
     border: none; 
     fill:  #f4f4fd;
