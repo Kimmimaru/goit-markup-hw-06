@@ -881,6 +881,10 @@ body {
     color: #8e8f99;
 }
 
+.check input {
+    position: absolute;
+}
+
 
 .contact-form {
     width: 16px;
@@ -895,11 +899,11 @@ body {
 }
 
 
-.class-imput:checked + .contact-form {
+.check input:checked + .contact-form {
     background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+    border: none; 
+    fill:  #f4f4fd;
+  }
 
 
 .link-privacy-policy {
