@@ -837,7 +837,7 @@ body {
 }
 
 
-.modal-in:focus .modal-icon{
+.modal-in:focus + .modal-icon{
     fill: #4D5AE5;
 }
 
