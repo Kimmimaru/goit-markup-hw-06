@@ -895,7 +895,7 @@ body {
 }
 
 
-.class-imput:checked .check .contact-form {
+.class-imput:checked + .contact-form {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
